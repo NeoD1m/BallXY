@@ -3,7 +3,8 @@ package mirea.ru.lab3;
 public class Square extends Rectangle {
     private double side;
     public Square(double side,String color, Boolean filled) {
-        super();
+        this.color = color;
+        this.filled = filled;
         this.side = side;
     }
     public Square(double side){
