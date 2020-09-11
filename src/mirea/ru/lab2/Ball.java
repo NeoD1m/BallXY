@@ -1,4 +1,4 @@
-package mirea.ru;
+package mirea.ru.lab2;
 
 public class Ball {
     private double x = 0.0;
@@ -34,6 +34,6 @@ public class Ball {
         y+=yDisp;
     }
     public String toString(){
-        return  ("Ball @ "+ x + y );
+        return  ("Ball @ "+ x + " " + y );
     }
 }

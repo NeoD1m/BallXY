@@ -1,7 +1,7 @@
-package mirea.ru;
+package mirea.ru.lab2;
 
 public class TestBall {
-    public void main(String[] args){
+    public static void main(String[] args){
 
         Ball blueBall = new Ball(0,0);
         System.out.println(blueBall.toString());
