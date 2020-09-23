@@ -16,7 +16,7 @@ public class MovableRectangle extends MovablePoint implements Movable  {
         bottomRight.ySpeed = ySpeed;
 
     }
-    
+
     // check if speed of two points is different
     public Boolean isSpeedCorrect(){
         return ((topLeft.xSpeed != bottomRight.xSpeed) || (topLeft.ySpeed!= bottomRight.ySpeed));
